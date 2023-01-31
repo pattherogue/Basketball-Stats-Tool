@@ -10,6 +10,7 @@
     #save new collection
         #height -- saved as an integer
         #experience -- saved as a boolean value (True or False)
+        
 #Create balance_teams function
 #Console readability matters
 #Displaying the statsd
