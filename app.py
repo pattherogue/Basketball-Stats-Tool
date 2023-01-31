@@ -6,6 +6,8 @@
 
 #Create a clean_data function
     #read existing player data from PLAYERS im constants.py
+    #clean player data w/o changing original data
+    #save new collection
 #Create balance_teams function
 #Console readability matters
 #Displaying the statsd
