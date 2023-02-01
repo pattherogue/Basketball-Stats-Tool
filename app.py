@@ -13,6 +13,7 @@ def clean_data(data):
         fixed = {}
         fixed["email"] = user["email"]
         fixed["first_name"] = user["name"].split(" ")[0]
+    return cleaned
 
     #read existing player data from PLAYERS im constants.py
     #clean player data w/o changing original data
