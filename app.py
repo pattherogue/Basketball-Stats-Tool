@@ -8,6 +8,9 @@ from constants import TEAMS, PLAYERS
 
 #Create a clean_data function
 def clean_data(data):
+    for user in data:
+        fixed = {}
+        
     #read existing player data from PLAYERS im constants.py
     #clean player data w/o changing original data
     #save new collection
