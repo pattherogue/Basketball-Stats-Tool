@@ -8,6 +8,8 @@ from constants import TEAMS, PLAYERS
 
 #Create a clean_data function
 def clean_data(data):
+    #read existing player data from PLAYERS im constants.py
+    #clean player data w/o changing original data
     cleaned = []
     for player in PLAYERS:
         fixed = {}
@@ -17,8 +19,7 @@ def clean_data(data):
         fixed["date_joined"] = player["date_joined"]
     return cleaned
 
-    #read existing player data from PLAYERS im constants.py
-    #clean player data w/o changing original data
+
     #save new collection
         #height -- saved as an integer
         #experience -- saved as a boolean value (True or False)
