@@ -4,6 +4,8 @@
     #should not be hard coded into script
     #changes should be reflected
 
+from constants import TEAMS, PLAYERS
+
 #Create a clean_data function
     #read existing player data from PLAYERS im constants.py
     #clean player data w/o changing original data
