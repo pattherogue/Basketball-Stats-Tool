@@ -11,10 +11,10 @@ def clean_data(data):
     cleaned = []
     for player in PLAYERS:
         fixed = {}
-        fixed["email"] = user["email"]
-        fixed["first_name"] = user["name"].split(" ")[0]
-        fixed["last_name"] = user["name"].split(" ")[1]
-        fixed["date_joined"] = user["date_joined"]
+        fixed["email"] = player["email"]
+        fixed["first_name"] = player["name"].split(" ")[0]
+        fixed["last_name"] = player["name"].split(" ")[1]
+        fixed["date_joined"] = player["date_joined"]
     return cleaned
 
     #read existing player data from PLAYERS im constants.py
