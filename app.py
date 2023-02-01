@@ -8,6 +8,7 @@ from constants import TEAMS, PLAYERS
 
 #Create a clean_data function
 def clean_data(data):
+    cleaned = []
     for user in data:
         fixed = {}
         fixed["email"] = user["email"]
