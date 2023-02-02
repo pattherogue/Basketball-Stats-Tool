@@ -14,7 +14,7 @@ def clean_data(data):
     for player in PLAYERS:
         fixed = {}
         fixed["name"] = player["name"]
-        fixed["first_name"] = player["name"].split(" ")[0]
+        fixed["gaurdians"] = player["gaurdians"]
         fixed["last_name"] = player["name"].split(" ")[1]
         fixed["date_joined"] = player["date_joined"]
     return cleaned
