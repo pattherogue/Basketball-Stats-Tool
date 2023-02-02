@@ -25,6 +25,7 @@ def clean_data(data):
             fixed['experience'] = False
         clean_player = {
             'name':
+            'gaurdians': 
             
         }
 
