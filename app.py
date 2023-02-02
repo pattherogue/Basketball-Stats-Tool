@@ -23,6 +23,9 @@ def clean_data(data):
             fixed['experience'] = True
         else: 
             fixed['experience'] = False
+        clean_player = {
+            
+        }
 
         
     return cleaned
