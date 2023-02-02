@@ -20,7 +20,9 @@ def clean_data(data):
         height = int(player['height'].split(" ")[0])
         if player['experience'] == 'YES':
             fixed['experience'] = True
-            
+        else: 
+            fixed['experience'] = False
+
         
     return cleaned
 
