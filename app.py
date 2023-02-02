@@ -15,13 +15,14 @@ def clean_data(data):
         fixed = {}
         fixed["name"] = player["name"]
         fixed["gaurdians"] = player["gaurdians"]
+        #save new collection
+        #height -- saved as an integer
         height = int(player['height'].split(" ")[0]
         
     return cleaned
 
 
-    #save new collection
-        #height -- saved as an integer
+  
         #experience -- saved as a boolean value (True or False)
 
 #Create balance_teams function
