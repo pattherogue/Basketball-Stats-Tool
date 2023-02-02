@@ -17,7 +17,7 @@ def clean_data(data):
         fixed["gaurdians"] = player["gaurdians"]
         #save new collection
         #height -- saved as an integer
-        height = int(player['height'].split(" ")[0])
+        height_data = int(player['height'].split(" ")[0])
         #experience -- saved as a boolean value (True or False)
         if player['experience'] == 'YES':
             fixed['experience'] = True
