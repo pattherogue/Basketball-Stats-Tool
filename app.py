@@ -18,6 +18,7 @@ def clean_data(data):
         #save new collection
         #height -- saved as an integer
         height = int(player['height'].split(" ")[0])
+        #experience -- saved as a boolean value (True or False)
         if player['experience'] == 'YES':
             fixed['experience'] = True
         else: 
@@ -28,7 +29,6 @@ def clean_data(data):
 
 
   
-        #experience -- saved as a boolean value (True or False)
 
 #Create balance_teams function
 #Console readability matters
