@@ -18,6 +18,9 @@ def clean_data(data):
         #save new collection
         #height -- saved as an integer
         height = int(player['height'].split(" ")[0])
+        if player['experience'] == 'YES':
+            fixed['experience'] = True
+            
         
     return cleaned
 
