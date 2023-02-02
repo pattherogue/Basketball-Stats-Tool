@@ -26,7 +26,7 @@ def clean_data(data):
         clean_player = {
             'name':
             'gaurdians': 
-            
+            'experience':
         }
 
         
