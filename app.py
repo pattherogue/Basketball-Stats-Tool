@@ -27,6 +27,7 @@ def clean_data(data):
             'name':
             'gaurdians': 
             'experience':
+            'height':
         }
 
         
