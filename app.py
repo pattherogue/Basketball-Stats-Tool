@@ -13,6 +13,7 @@ def clean_data(data):
     cleaned = []
     for player in PLAYERS:
         fixed = {}
+        split_name = player["name"].split(" ")
         fixed["name"] = player["name"].split(" ")[0]
         fixed["gaurdians"] = player["gaurdians"]
         #save new collection
