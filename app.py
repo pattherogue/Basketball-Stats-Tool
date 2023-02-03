@@ -13,7 +13,7 @@ def clean_data(data):
     cleaned = []
     for player in PLAYERS:
         fixed = {}
-        fixed["name"] = player["name"].split(" ")[0]
+        fixed["name"] = player
         fixed["gaurdians"] = player["gaurdians"]
         #save new collection
         #height -- saved as an integer
@@ -42,3 +42,6 @@ def clean_data(data):
     #team's name as a string
     #total players on that team as an integer
     #player names as strings seperated by commas
+
+
+
