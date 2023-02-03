@@ -24,7 +24,7 @@ def clean_data(data):
         else: 
             fixed['experience'] = False
        cleaned = {
-           'name': player['name']
+           'name': player['name'],
            'gaurdians': 
            'experience': 
            'height': 
