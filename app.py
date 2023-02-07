@@ -13,11 +13,11 @@ def clean_data():
     cleaned = []
     for player in PLAYERS:
         fixed = {}
-        fixed["name"] = player
-        fixed["gaurdians"] = player["gaurdians"]
+        fixed['name'] = player
+        fixed['gaurdians'] = player['gaurdians']
         #save new collection
         #height -- saved as an integer
-        fixed["height"] = height_data
+        fixed['height'] = height_data
         height_data = int(player['height'].split(" ")[0])
         #experience -- saved as a boolean value (True or False)
         if player['experience'] == 'YES':
@@ -31,6 +31,7 @@ def clean_data():
 
 #Create balance_teams function
 def balance_teams():
+# Balance players across three teams: Panthers, Bandits, and  Warriors
 
 
 # HINT: To find out how many players should be on each team, 
