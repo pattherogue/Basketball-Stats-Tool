@@ -7,7 +7,7 @@
 from constants import TEAMS, PLAYERS
 
 #Create a clean_data function
-def clean_data(data):
+def clean_data():
     #read existing player data from PLAYERS im constants.py
     #clean player data w/o changing original data
     cleaned = []
@@ -17,7 +17,7 @@ def clean_data(data):
         fixed["gaurdians"] = player["gaurdians"]
         #save new collection
         #height -- saved as an integer
-        fixed["heigh"] = height_data
+        fixed["height"] = height_data
         height_data = int(player['height'].split(" ")[0])
         #experience -- saved as a boolean value (True or False)
         if player['experience'] == 'YES':
@@ -29,10 +29,14 @@ def clean_data(data):
  
     return cleaned
 
-
-  
-
 #Create balance_teams function
+def balance_teams():
+
+
+# HINT: To find out how many players should be on each team, 
+# divide the length of players by the number of teams. 
+# Ex: num_players_team = len(PLAYERS) / len(TEAMS)
+
 #Console readability matters
 #Displaying the stats
     #team's name as a string
