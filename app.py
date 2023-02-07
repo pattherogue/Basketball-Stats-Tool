@@ -34,6 +34,8 @@ def balance_teams():
 # Balance players across three teams: Panthers, Bandits, and  Warriors
 # Organize teams based on experienced vs inexperienced players 
 
+# functions, packing, and unpacking
+
 
 # HINT: To find out how many players should be on each team, 
 # divide the length of players by the number of teams. 
