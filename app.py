@@ -36,7 +36,7 @@ team_panthers = []
 team_bandits = []
 team_warriors = []
 # Organize teams based on experienced vs inexperienced players 
-
+experienced_player = []
 # functions, packing, and unpacking
 
 
