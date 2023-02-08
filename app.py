@@ -39,7 +39,8 @@ def balance_teams():
     experienced_player = []
     inexperienced_player = []
 # functions, packing, and unpacking
-
+    for fixed in cleaned:
+        
 
 # HINT: To find out how many players should be on each team, 
 # divide the length of players by the number of teams. 
