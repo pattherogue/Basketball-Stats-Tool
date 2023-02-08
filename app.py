@@ -37,6 +37,7 @@ team_bandits = []
 team_warriors = []
 # Organize teams based on experienced vs inexperienced players 
 experienced_player = []
+inexperienced_player = []
 # functions, packing, and unpacking
 
 
