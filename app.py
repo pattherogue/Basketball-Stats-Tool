@@ -48,7 +48,7 @@ def balance_teams():
 # HINT: To find out how many players should be on each team, 
 # divide the length of players by the number of teams. 
 # Ex: num_players_team = len(PLAYERS) / len(TEAMS)
-
+num_players_team= len(PLAYERS)/ len(TEAMS)
 # len, min, max
 
 #Console readability matters
