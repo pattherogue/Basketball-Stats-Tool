@@ -26,7 +26,7 @@ def clean_data():
             fixed['experience'] = False
     
     cleaned.append(fixed)
- 
+    #data returned cleaned
     return cleaned
 
 #Create balance_teams function
