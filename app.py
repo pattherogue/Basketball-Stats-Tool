@@ -41,7 +41,7 @@ def balance_teams():
 # functions, packing, and unpacking
     for fixed in cleaned:
         if fixed['experience'] == True:
-
+            experienced_player.append(fixed)
 
 # HINT: To find out how many players should be on each team, 
 # divide the length of players by the number of teams. 
