@@ -49,6 +49,8 @@ def balance_teams():
 # divide the length of players by the number of teams. 
 # Ex: num_players_team = len(PLAYERS) / len(TEAMS)
 
+# len, min, max
+
 #Console readability matters
 #Displaying the stats
     #team's name as a string
