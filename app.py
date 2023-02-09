@@ -61,7 +61,8 @@ def balance_teams():
                 break
     while len(inexperienced_player) >= 1:
         for team in teams:
-            
+            try: 
+                
 # goal   
 
 #Console readability matters
