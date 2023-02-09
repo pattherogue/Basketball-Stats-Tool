@@ -59,6 +59,7 @@ def balance_teams():
                 team.append(experienced_player.pop(0))
             except IndexError:
                 break
+    while len(inexperienced_player) >= 1:
 # goal   
 
 #Console readability matters
