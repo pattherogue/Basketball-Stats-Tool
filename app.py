@@ -38,6 +38,8 @@ def balance_teams():
 # Organize teams based on experienced vs inexperienced players 
     experienced_player = []
     inexperienced_player = []
+# New team created to not mess with origials 
+    new_teams = []
 # functions, packing, and unpacking
     for fixed in cleaned:
         if fixed['experience'] == True:
@@ -52,6 +54,7 @@ num_players_team= len(PLAYERS)/ len(TEAMS)
 # len, min, max
 # loops over players to check experience property value
 # append to correct list
+# goal 
 
 #Console readability matters
 #Displaying the stats
