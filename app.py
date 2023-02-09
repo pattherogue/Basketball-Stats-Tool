@@ -49,7 +49,6 @@ def balance_teams():
 
 # HINT: To find out how many players should be on each team, 
 # divide the length of players by the number of teams. 
-# Ex: num_players_team = len(PLAYERS) / len(TEAMS)
 # len, min, max
 # loops over players to check experience property value
     while len(experienced_player) >= 1:
