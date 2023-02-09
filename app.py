@@ -60,6 +60,8 @@ def balance_teams():
             except IndexError:
                 break
     while len(inexperienced_player) >= 1:
+        for team in teams:
+            
 # goal   
 
 #Console readability matters
