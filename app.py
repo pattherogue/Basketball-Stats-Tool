@@ -66,6 +66,7 @@ def balance_teams():
                 team.append(inexperienced_player.pop(0))
             except IndexError:
                 break
+    return new_teams
 # goal   
 
 #Console readability matters
