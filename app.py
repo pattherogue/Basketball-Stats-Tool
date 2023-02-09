@@ -54,8 +54,9 @@ def balance_teams():
 # loops over players to check experience property value
     while len(experienced_player) >= 1:
         for team in new_teams:
-            
-# append to correct list
+            try:
+            # append to correct list
+                team.append(experienced_player.pop(0))
 # goal 
 
 #Console readability matters
