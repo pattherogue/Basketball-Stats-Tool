@@ -63,6 +63,7 @@ def balance_teams():
         for team in teams:
             try: 
             # append to correct list
+                team.append(inexperienced_player.pop(0))
 
 # goal   
 
