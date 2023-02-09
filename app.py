@@ -50,6 +50,8 @@ def balance_teams():
 # Ex: num_players_team = len(PLAYERS) / len(TEAMS)
 num_players_team= len(PLAYERS)/ len(TEAMS)
 # len, min, max
+# loops over players to check experience property value
+# append to correct list
 
 #Console readability matters
 #Displaying the stats
