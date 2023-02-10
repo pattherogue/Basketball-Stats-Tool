@@ -86,9 +86,8 @@ def basketballStatsTool():
     print("\n")
     # ---- MENU ----
     print("---- Menu ----")
-    print("Here are your choices: ")
     # Here are your choices: 
-    print("\n")
+    print("Here are your choices: ", "\n", "A) Display Team Stats", "\n", )
     # A) Display Team Stats
     # B) Quit 
 
