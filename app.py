@@ -84,8 +84,9 @@ def basketballStatsTool():
     # Title BASKETBALL TEAM STATS TOOL
     print("BASKETBALL TEAM STATS TOOL")
     print("\n")
-    print("---- Menu ----")
     # ---- MENU ----
+    print("---- Menu ----")
+   
 
     # Here are your choices: 
 
