@@ -81,40 +81,40 @@ def balance_teams():
 
 # Beginning Of Main Display 
 
-# Title BASKETBALL TEAM STATS TOOL
+    # Title BASKETBALL TEAM STATS TOOL
 
-# ---- MENU ----
+    # ---- MENU ----
 
-# Here are your choices: 
+    # Here are your choices: 
 
-# A) Display Team Stats
-# B) Quit 
+    # A) Display Team Stats
+    # B) Quit 
 
-# Enter an option: A
+    # Enter an option: A
 
 # End of Main Display
 
 #Start of Second Display
 
-# A) Panthers
-# B) Bandits
-# C) Warriors
+    # A) Panthers
+    # B) Bandits
+    # C) Warriors
 
-# Enter an option: A
+    # Enter an option: A
 
 # End of Second Display 
 
 # Start of Third Display
 
-# Team: Panther Stats
+    # Team: Panther Stats
 
-# ---------------------
+    # ---------------------
 
-# Total players: 6
+    # Total players: 6
 
-# Players on Team: 
-    # (Plaayer 1, Player 2, ... )
+    # Players on Team: 
+        # (Plaayer 1, Player 2, ... )
 
-# Press ENTER to continue...
+    # Press ENTER to continue...
 
 # End of This Display 
