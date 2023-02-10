@@ -79,3 +79,12 @@ def balance_teams():
 
 
 # Title BASKETBALL TEAM STATS TOOL
+
+# ---- MENU ----
+
+# Here are your choices: 
+
+# A) Display Team Stats
+# B) Quit 
+
+# Enter an option: A
