@@ -79,6 +79,8 @@ def balance_teams():
 
 # FORMAT OF BASKETBALL STATS TOOL
 
+# Beginning Of Main Display 
+
 # Title BASKETBALL TEAM STATS TOOL
 
 # ---- MENU ----
@@ -90,11 +92,17 @@ def balance_teams():
 
 # Enter an option: A
 
+# End of Main Display
+
+#Start of Second Display
+
 # A) Panthers
 # B) Bandits
 # C) Warriors
 
 # Enter an option: A
+
+# End of Second Display 
 
 # Team: Panther Stated
 
