@@ -69,6 +69,7 @@ def balance_teams():
 # goal   
 
 #Console readability matters
+#Display in nice readable format
 #Displaying the stats
     #team's name as a string
     #total players on that team as an integer
