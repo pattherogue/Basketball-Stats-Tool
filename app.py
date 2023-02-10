@@ -82,7 +82,7 @@ def balance_teams():
 # Beginning Of Main Display 
 def basketballStatsTool():
     # Title BASKETBALL TEAM STATS TOOL
-
+    print("BASKETBALL TEAM STATS TOOL")
     # ---- MENU ----
 
     # Here are your choices: 
