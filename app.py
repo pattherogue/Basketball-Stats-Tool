@@ -80,7 +80,7 @@ def balance_teams():
 # FORMAT OF BASKETBALL STATS TOOL
 
 # Beginning Of Main Display 
-
+def my_function():
     # Title BASKETBALL TEAM STATS TOOL
 
     # ---- MENU ----
