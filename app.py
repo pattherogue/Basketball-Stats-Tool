@@ -94,3 +94,12 @@ def balance_teams():
 # C) Warriors
 
 # Enter an option: A
+
+# Team: Panther Stated
+
+# ---------------------
+
+# Total players: 6
+
+# Players on Team: 
+    # (Plaayer 1, Player 2, ... )
