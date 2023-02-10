@@ -92,3 +92,5 @@ def balance_teams():
 # A) Panthers
 # B) Bandits
 # C) Warriors
+
+# Enter an option: A
