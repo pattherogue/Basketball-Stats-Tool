@@ -103,3 +103,5 @@ def balance_teams():
 
 # Players on Team: 
     # (Plaayer 1, Player 2, ... )
+
+# Press ENTER to continue...
