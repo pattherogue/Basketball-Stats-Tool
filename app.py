@@ -104,7 +104,9 @@ def balance_teams():
 
 # End of Second Display 
 
-# Team: Panther Stated
+#Start of Third Display
+
+# Team: Panther Stats
 
 # ---------------------
 
