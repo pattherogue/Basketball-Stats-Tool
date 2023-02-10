@@ -104,7 +104,7 @@ def balance_teams():
 
 # End of Second Display 
 
-#Start of Third Display
+# Start of Third Display
 
 # Team: Panther Stats
 
@@ -116,3 +116,5 @@ def balance_teams():
     # (Plaayer 1, Player 2, ... )
 
 # Press ENTER to continue...
+
+# End of This Display 
