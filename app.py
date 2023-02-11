@@ -91,6 +91,7 @@ def basketballStatsTool():
     # A) Display Team Stats
     # B) Quit 
     print("\n")
+    print("\n")
     # Enter an option: A
 
 # End of Main Display
