@@ -107,11 +107,12 @@ def basketballStatsTool():
    
 # End of Main Display
 
-#Start of Second Display
+
 
     # A) Panthers
     # B) Bandits
     # C) Warriors
+#Start of Second Display
 
     # Enter an option: A
 
