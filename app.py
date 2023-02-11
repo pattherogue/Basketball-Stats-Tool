@@ -100,6 +100,9 @@ def basketballStatsTool():
         elif option == 'B':
             print('\nEnd of Basketball Stats Tool')
             break
+        else:
+            print("Not a valid response. Please choose 'A' or 'B")
+            continue
     # Enter an option: A
 
 # End of Main Display
