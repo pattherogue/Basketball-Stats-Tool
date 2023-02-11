@@ -96,8 +96,10 @@ def basketballStatsTool():
         option = input("Enter an option: ")
         if option == 'A':
             print("\n\nA) Panthers \nB) Bandits \nC) Warriors")
+            break
         elif option == 'B':
             print('\nEnd of Basketball Stats Tool')
+            break
     # Enter an option: A
 
 # End of Main Display
