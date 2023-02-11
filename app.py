@@ -90,7 +90,7 @@ def basketballStatsTool():
     print("Here are your choices: ", "\n", "A) Display Team Stats", "\n", "B) Quit" )
     # A) Display Team Stats
     # B) Quit 
-
+    print("\n")
     # Enter an option: A
 
 # End of Main Display
