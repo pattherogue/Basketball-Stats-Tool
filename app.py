@@ -93,7 +93,8 @@ def basketballStatsTool():
     print("\n")
     print("\n")
     while True: 
-        
+        option = input("Enter an option: ")
+
     # Enter an option: A
 
 # End of Main Display
