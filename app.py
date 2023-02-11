@@ -92,6 +92,8 @@ def basketballStatsTool():
     # B) Quit 
     print("\n")
     print("\n")
+    while True: 
+        
     # Enter an option: A
 
 # End of Main Display
