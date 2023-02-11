@@ -105,7 +105,6 @@ def basketballStatsTool():
             print("Not a valid response. Please choose 'A' or 'B")
             continue
    
-
 # End of Main Display
 
 #Start of Second Display
