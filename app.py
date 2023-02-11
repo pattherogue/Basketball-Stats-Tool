@@ -97,6 +97,9 @@ def basketballStatsTool():
         option = input("Enter an option: ")
         if option == 'A':
             print("\n\nA) Panthers \nB) Bandits \nC) Warriors")
+            # A) Panthers
+            # B) Bandits
+            # C) Warriors
             break
         elif option == 'B':
             print('\nEnd of Basketball Stats Tool')
@@ -109,9 +112,6 @@ def basketballStatsTool():
 
 
 
-    # A) Panthers
-    # B) Bandits
-    # C) Warriors
 #Start of Second Display
 
     # Enter an option: A
