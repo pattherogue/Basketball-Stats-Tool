@@ -93,6 +93,7 @@ def basketballStatsTool():
     print("\n")
     print("\n")
     while True: 
+        # Enter an option: A
         option = input("Enter an option: ")
         if option == 'A':
             print("\n\nA) Panthers \nB) Bandits \nC) Warriors")
@@ -103,7 +104,7 @@ def basketballStatsTool():
         else:
             print("Not a valid response. Please choose 'A' or 'B")
             continue
-    # Enter an option: A
+   
 
 # End of Main Display
 
