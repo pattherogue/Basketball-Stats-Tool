@@ -111,8 +111,9 @@ def basketballStatsTool():
 # End of Main Display
 
 
-
 #Start of Second Display
+while True:
+    
 
     # Enter an option: A
 
