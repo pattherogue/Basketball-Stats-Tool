@@ -113,7 +113,7 @@ def basketballStatsTool():
 
 #Start of Second Display
 while True:
-    choose_team = input('\n\nPLease select a team by choosing a letter: ')
+    choose_team = input('\n\nSelect a team by choosing a letter: ')
 
     # Enter an option: A
 
