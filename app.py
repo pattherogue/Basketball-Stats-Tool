@@ -121,9 +121,13 @@ while True:
 # Team Warriors
 
 # Need to show
-    #Team Name
-    #Team Total Players
-    #List players of selected team
+    #Team Name (as string)
+    #Team Total Players (as integer)
+    #List players of selected team (string seperated by comma)
+
+
+
+
 
     # Enter an option: A
 
