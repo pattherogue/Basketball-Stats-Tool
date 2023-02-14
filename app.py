@@ -119,6 +119,7 @@ while True:
         team_panthers = balance_teams(clean_data())[0]
         #gather total players from filtered (balance + clean functions)
         total_players = len(team_panthers)
+        #list number of players on team
 
 # Team Panthers
 # Team Bandits
