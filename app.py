@@ -126,6 +126,7 @@ while True:
     #Team Total Players (as integer)
         #total_players = len(team)
     #List players of selected team (string seperated by comma)
+        #list_players = team.split()
 
 
 
