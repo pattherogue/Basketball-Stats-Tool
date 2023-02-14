@@ -114,7 +114,8 @@ def basketballStatsTool():
 #Start of Second Display
 while True:
     choose_team = input('\n\nSelect a team by choosing a letter: ')
-    if choose_team == 'A'
+    if choose_team == 'A':
+        team_panthers = balance_teams(clean_data())[0]
 
 # Team Panthers
 # Team Bandits
