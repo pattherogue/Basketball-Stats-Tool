@@ -120,6 +120,7 @@ while True:
         #gather total players from filtered (balance + clean functions)
         total_players = len(team_panthers)
         #list number of players on team (seperated by comma)
+        display_team_members = team_panthers.split()
 
 # Team Panthers
 # Team Bandits
