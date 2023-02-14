@@ -122,8 +122,9 @@ while True:
 
 # Need to show
     #Team Name (as string)
+        #print(Team Name)
     #Team Total Players (as integer)
-    #total_players = len(team)
+        #total_players = len(team)
     #List players of selected team (string seperated by comma)
 
 
