@@ -120,6 +120,10 @@ while True:
 # Team Bandits
 # Team Warriors
 
+# Need to show
+    #Team Name
+    #Team Total Players
+    #List players of selected team
 
     # Enter an option: A
 
