@@ -117,6 +117,8 @@ while True:
     if choose_team == 'A':
         #storage for filtered players from prev. balance + clean funtions
         team_panthers = balance_teams(clean_data())[0]
+        #gather total players from filtered (balance + clean functions)
+        total_players = len(team_panthers)
 
 # Team Panthers
 # Team Bandits
