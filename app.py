@@ -124,7 +124,7 @@ while True:
         print(f'''
             Team: Panther Stats
             --------------------
-            Total players:
+            Total players: {total_players}
 
             Players on Team:
 
