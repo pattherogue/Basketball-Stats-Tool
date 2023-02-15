@@ -131,6 +131,8 @@ while True:
         break
     elif choose_team == 'B':
         team_bandits = balance_teams(clean_data())[1]
+        total_players = len(team_bandits)
+        display_team_members = team_bandits.split()
 
 # Team Panthers
 # Team Bandits
