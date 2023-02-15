@@ -153,6 +153,8 @@ while True:
             Players on Team: {display_team_members}
         ''')
         break
+    else:
+        print("Not a valid response. Please try again."
 
 # Team Panthers
 # Team Bandits
