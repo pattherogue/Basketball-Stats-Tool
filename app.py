@@ -129,6 +129,7 @@ while True:
             Players on Team: {display_team_members}
         ''')
         break
+    elif choose_team == 'B':
 
 # Team Panthers
 # Team Bandits
