@@ -122,12 +122,12 @@ while True:
         #list number of players on team (seperated by comma)
         display_team_members = team_panthers.split()
         print(f'''
-            Team:
+            Team: Panther Stats
             --------------------
             Total players:
 
             Players on Team:
-            
+
         ''')
 
 # Team Panthers
