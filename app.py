@@ -128,6 +128,7 @@ while True:
 
             Players on Team: {display_team_members}
         ''')
+        break
 
 # Team Panthers
 # Team Bandits
