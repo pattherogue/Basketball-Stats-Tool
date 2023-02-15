@@ -130,6 +130,7 @@ while True:
         ''')
         break
     elif choose_team == 'B':
+        team_bandits = balance_teams(clean_data())[1]
 
 # Team Panthers
 # Team Bandits
