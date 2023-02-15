@@ -126,7 +126,7 @@ while True:
             --------------------
             Total players: {total_players}
 
-            Players on Team:
+            Players on Team: {display_team_members}
 
         ''')
 
