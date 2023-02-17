@@ -29,7 +29,7 @@ def clean_data():
     #data returned cleaned
     return cleaned
 
-#Create balance_teams function
+# Create balance_teams function
 def balance_teams():
 # Balance players across three teams: Panthers, Bandits, and  Warriors
     team_panthers = []
