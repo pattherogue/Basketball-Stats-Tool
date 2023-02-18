@@ -39,7 +39,7 @@ def balance_teams(cleaned):
     experienced_player = []
     inexperienced_player = []
 # New team created to not mess with origials 
-    new_teams = []
+    new_teams = [team_panthers, team_bandits, team_warriors]
 # functions, packing, and unpacking
     for fixed in cleaned:
         if fixed['experience'] == True:
