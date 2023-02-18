@@ -59,7 +59,7 @@ def balance_teams(cleaned):
             except IndexError:
                 break
     while len(inexperienced_player) >= 1:
-        for team in teams:
+        for team in new_teams:
             try: 
             # append to correct list
                 team.append(inexperienced_player.pop(0))
