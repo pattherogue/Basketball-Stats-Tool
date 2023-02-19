@@ -69,6 +69,7 @@ def balance_teams(cleaned):
 
 if __name__ == "__main__":
     clean_data()
+    balance_teams(clean_data())
 #Console readability matters
 #Display in nice readable format
 
