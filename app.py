@@ -126,7 +126,7 @@ while True:
         display_team_members = team_panthers.split()
         #print(f'''
             #Team: Panther Stats
-            --------------------
+            #--------------------
             #Total players: {total_players}
 
             #Players on Team: {display_team_members}
@@ -138,7 +138,7 @@ while True:
         display_team_members = team_bandits.split()
         #print(f'''
             #Team: Bandit Stats
-            --------------------
+            #--------------------
             #Total players: {total_players}
 
             #Players on Team: {display_team_members}
@@ -150,7 +150,7 @@ while True:
         display_team_members = team_warriors.split()
         #print(f'''
             #Team: Bandit Stats
-            --------------------
+            #--------------------
             #Total players: {total_players}
 
             #Players on Team: {display_team_members}
