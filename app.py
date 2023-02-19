@@ -5,7 +5,7 @@
     #changes should be reflected
 
 from constants import TEAMS, PLAYERS
-import sys
+
 
 # Create a clean_data function
 def clean_data():
