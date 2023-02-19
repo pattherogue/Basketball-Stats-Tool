@@ -67,6 +67,8 @@ def balance_teams(cleaned):
     return new_teams
 # goal   
 
+if __name__ == "__main__":
+    
 #Console readability matters
 #Display in nice readable format
 
