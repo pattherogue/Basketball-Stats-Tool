@@ -88,9 +88,8 @@ if __name__ == "__main__":
 print("\n")
 print("BASKETBALL TEAM STATS TOOL")
 while True:
-    print("\n")
     # ---- MENU ----
-    print("---- Menu ----")
+    print("\n---MENU---\n")
     # Here are your choices: 
     print("Here are your choices: ", "\n", "A) Display Team Stats", "\n", "B) Quit" )
     # A) Display Team Stats
