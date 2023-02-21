@@ -83,10 +83,10 @@ if __name__ == "__main__":
 # FORMAT OF BASKETBALL STATS TOOL
 
 # Beginning Of Main Display 
-def basketballStatsTool():
-    # Title BASKETBALL TEAM STATS TOOL
-    print("BASKETBALL TEAM STATS TOOL")
-    print("\n")
+
+# Title BASKETBALL TEAM STATS TOOL
+print("BASKETBALL TEAM STATS TOOL")
+while True:
     # ---- MENU ----
     print("---- Menu ----")
     # Here are your choices: 
