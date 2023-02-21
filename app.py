@@ -85,6 +85,7 @@ if __name__ == "__main__":
 # Beginning Of Main Display 
 
 # Title BASKETBALL TEAM STATS TOOL
+print("\n")
 print("BASKETBALL TEAM STATS TOOL")
 while True:
     print("\n")
