@@ -91,7 +91,7 @@ while True:
     # ---- MENU ----
     print("\n---MENU---\n")
     # Here are your choices: 
-    print("Here are your choices: \n A) Display Team Stats \n B) Quit" )
+    print("Here are your choices: \nA) Display Team Stats \nB) Quit" )
     # A) Display Team Stats
     # B) Quit 
     print("\n")
