@@ -15,7 +15,7 @@ def clean_data():
     for player in PLAYERS:
         fixed = {}
         fixed['name'] = player['name']
-        fixed['gaurdians'] = player['gaurdians']
+        fixed['guardians'] = player['guardians']
         #save new collection
         #height -- saved as an integer
         fixed['height'] = int(player['height'].split(" ")[0])
