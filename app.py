@@ -158,6 +158,7 @@ while True:
         break
     else:
         print("Not a valid response. Please try again.")
+        continue
 
 # Team Panthers
 # Team Bandits
