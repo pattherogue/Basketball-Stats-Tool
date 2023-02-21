@@ -95,7 +95,6 @@ while True:
     # A) Display Team Stats
     # B) Quit 
     print("\n")
-    print("\n")
     while True: 
         # Enter an option: A
         option = input("Enter an option: ")
