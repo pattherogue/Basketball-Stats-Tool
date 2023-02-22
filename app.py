@@ -121,7 +121,7 @@ while True:
 #Start of Second Display
     while True:
         choose_team = raw_input('\n\nSelect a team by choosing a letter: ')
-        if choose_team == 'A':
+        if choose_team.upper() == 'A':
             #storage for filtered players from prev. balance + clean funtions
             team_panthers = balance_teams(clean_data())[0]
             #gather total players from filtered (balance + clean functions)
@@ -136,7 +136,7 @@ while True:
                 #Players on Team: {display_team_members}
             """)
             break
-        elif choose_team == 'B':
+        elif choose_team.upper() == 'B':
             team_bandits = balance_teams(clean_data())[1]
             total_players = len(team_bandits)
             display_team_members = team_bandits.split()
@@ -148,7 +148,7 @@ while True:
                 #Players on Team: {display_team_members}
             """)
             break
-        elif choose_team == 'C':
+        elif choose_team.upper() == 'C':
             team_warriors = balance_teams(clean_data())[1]
             total_players = len(team_warriors)
             display_team_members = team_warriors.split()
