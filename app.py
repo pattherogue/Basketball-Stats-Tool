@@ -124,40 +124,40 @@ while True:
         total_players = len(team_panthers)
         #list number of players on team (seperated by comma)
         display_team_members = team_panthers.split()
-        #print(f'''
+        print(f'''
             #Team: Panther Stats
             #--------------------
             #Total players: {total_players}
 
             #Players on Team: {display_team_members}
-        #''')
+        ''')
         break
     elif choose_team == 'B':
         team_bandits = balance_teams(clean_data())[1]
         total_players = len(team_bandits)
         display_team_members = team_bandits.split()
-        #print(f'''
+        print(f'''
             #Team: Bandit Stats
             #--------------------
             #Total players: {total_players}
 
             #Players on Team: {display_team_members}
-        #''')
+        ''')
         break
     elif choose_team == 'C':
         team_warriors = balance_teams(clean_data())[1]
         total_players = len(team_warriors)
         display_team_members = team_warriors.split()
-        #print(f'''
+        print(f'''
             #Team: Bandit Stats
             #--------------------
             #Total players: {total_players}
 
             #Players on Team: {display_team_members}
-        #''')
+        ''')
         break
     else:
-        print("Not a valid response. Please try again.")
+        print("Invalid response. Please try again.")
         continue
 
 # Team Panthers
