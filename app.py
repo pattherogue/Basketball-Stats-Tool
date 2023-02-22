@@ -97,7 +97,7 @@ while True:
     print("\n")
     while True: 
         # Enter an option: A
-        option = input("Enter an option: A/B")
+        option = input("Enter an option: A/B ")
         if option.upper() == 'A':
             print("\n\nA) Panthers \nB) Bandits \nC) Warriors")
             # A) Panthers
