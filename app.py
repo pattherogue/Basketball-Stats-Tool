@@ -124,13 +124,13 @@ while True:
             total_players = len(team_panthers)
             #list number of players on team (seperated by comma)
             display_team_members = team_panthers.split()
-            print(f'''
+            print("""
                 #Team: Panther Stats
                 #--------------------
                 #Total players: {total_players}
 
                 #Players on Team: {display_team_members}
-            ''')
+            """)
             break
         elif choose_team == 'B':
             team_bandits = balance_teams(clean_data())[1]
