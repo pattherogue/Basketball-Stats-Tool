@@ -115,50 +115,50 @@ while True:
 
 
 #Start of Second Display
-while True:
-    choose_team = input('\n\nSelect a team by choosing a letter: ')
-    if choose_team == 'A':
-        #storage for filtered players from prev. balance + clean funtions
-        team_panthers = balance_teams(clean_data())[0]
-        #gather total players from filtered (balance + clean functions)
-        total_players = len(team_panthers)
-        #list number of players on team (seperated by comma)
-        display_team_members = team_panthers.split()
-        print(f'''
-            #Team: Panther Stats
-            #--------------------
-            #Total players: {total_players}
+    while True:
+        choose_team = input('\n\nSelect a team by choosing a letter: ')
+        if choose_team == 'A':
+            #storage for filtered players from prev. balance + clean funtions
+            team_panthers = balance_teams(clean_data())[0]
+            #gather total players from filtered (balance + clean functions)
+            total_players = len(team_panthers)
+            #list number of players on team (seperated by comma)
+            display_team_members = team_panthers.split()
+            print(f'''
+                #Team: Panther Stats
+                #--------------------
+                #Total players: {total_players}
 
-            #Players on Team: {display_team_members}
-        ''')
-        break
-    elif choose_team == 'B':
-        team_bandits = balance_teams(clean_data())[1]
-        total_players = len(team_bandits)
-        display_team_members = team_bandits.split()
-        print(f'''
-            #Team: Bandit Stats
-            #--------------------
-            #Total players: {total_players}
+                #Players on Team: {display_team_members}
+            ''')
+            break
+        elif choose_team == 'B':
+            team_bandits = balance_teams(clean_data())[1]
+            total_players = len(team_bandits)
+            display_team_members = team_bandits.split()
+            print(f'''
+                #Team: Bandit Stats
+                #--------------------
+                #Total players: {total_players}
 
-            #Players on Team: {display_team_members}
-        ''')
-        break
-    elif choose_team == 'C':
-        team_warriors = balance_teams(clean_data())[1]
-        total_players = len(team_warriors)
-        display_team_members = team_warriors.split()
-        print(f'''
-            #Team: Bandit Stats
-            #--------------------
-            #Total players: {total_players}
+                #Players on Team: {display_team_members}
+            ''')
+            break
+        elif choose_team == 'C':
+            team_warriors = balance_teams(clean_data())[1]
+            total_players = len(team_warriors)
+            display_team_members = team_warriors.split()
+            print(f'''
+                #Team: Bandit Stats
+                #--------------------
+                #Total players: {total_players}
 
-            #Players on Team: {display_team_members}
-        ''')
-        break
-    else:
-        print("Invalid response. Please try again.")
-        continue
+                #Players on Team: {display_team_members}
+            ''')
+            break
+        else:
+            print("Invalid response. Please try again.")
+            continue
 
 # Team Panthers
 # Team Bandits
