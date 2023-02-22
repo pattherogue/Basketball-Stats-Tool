@@ -148,13 +148,13 @@ while True:
             team_warriors = balance_teams(clean_data())[1]
             total_players = len(team_warriors)
             display_team_members = team_warriors.split()
-            print(f'''
+            print("""
                 #Team: Bandit Stats
                 #--------------------
                 #Total players: {total_players}
 
                 #Players on Team: {display_team_members}
-            ''')
+            """)
             break
         else:
             print("Invalid response. Please try again.")
