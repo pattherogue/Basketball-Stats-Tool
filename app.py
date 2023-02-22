@@ -98,13 +98,13 @@ while True:
     while True: 
         # Enter an option: A
         option = input("Enter an option: A/B")
-        if option == 'A':
+        if option.upper() == 'A':
             print("\n\nA) Panthers \nB) Bandits \nC) Warriors")
             # A) Panthers
             # B) Bandits
             # C) Warriors
             break
-        elif option == 'B':
+        elif option.upper() == 'B':
             print('\nEnd of Basketball Stats Tool')
             break
         else:
