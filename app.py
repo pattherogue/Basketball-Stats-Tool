@@ -108,7 +108,7 @@ while True:
             print('\nEnd of Basketball Stats Tool')
             break
         else:
-            print("Not a valid response. Please choose 'A' or 'B")
+            print("Invalid response. Please choose 'A' or 'B")
             continue
    
 # End of Main Display
