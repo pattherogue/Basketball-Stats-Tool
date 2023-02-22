@@ -136,13 +136,13 @@ while True:
             team_bandits = balance_teams(clean_data())[1]
             total_players = len(team_bandits)
             display_team_members = team_bandits.split()
-            print(f'''
+            print("""
                 #Team: Bandit Stats
                 #--------------------
                 #Total players: {total_players}
 
                 #Players on Team: {display_team_members}
-            ''')
+            """)
             break
         elif choose_team == 'C':
             team_warriors = balance_teams(clean_data())[1]
