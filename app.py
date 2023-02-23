@@ -127,7 +127,10 @@ while True:
             #gather total players from filtered (balance + clean functions)
             total_players = len(team_panthers)
             #list number of players on team (seperated by comma)
-            display_team_members = ', '.join(team_panthers)
+            display_team_members = []
+            for cleaned in team_panthers:
+                display_team_members.append(cleaned['name'])
+
             print("""
                 #Team: Panther Stats
                 #--------------------
