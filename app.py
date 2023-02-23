@@ -139,7 +139,7 @@ while True:
         elif choose_team.upper() == 'B':
             team_bandits = balance_teams(clean_data())[1]
             total_players = len(team_bandits)
-            display_team_members = team_bandits.split()
+            display_team_members = ', '.join(team_bandits)
             print("""
                 #Team: Bandit Stats
                 #--------------------
@@ -151,7 +151,7 @@ while True:
         elif choose_team.upper() == 'C':
             team_warriors = balance_teams(clean_data())[1]
             total_players = len(team_warriors)
-            display_team_members = team_warriors.split()
+            display_team_members = ', '.join(team_warriors)
             print("""
                 #Team: Bandit Stats
                 #--------------------
