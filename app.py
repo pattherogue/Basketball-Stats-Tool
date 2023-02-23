@@ -156,7 +156,9 @@ while True:
         elif choose_team.upper() == 'C':
             team_warriors = balance_teams(clean_data())[1]
             total_players = len(team_warriors)
-            display_team_members = ', '.join(team_warriors)
+            display_warriors_members = []
+            for cleaned in team_warriors:
+                display_warriors_members.append(cleaned['name'])
             print("""
                 #Team: Bandit Stats
                 #--------------------
