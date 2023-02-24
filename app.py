@@ -154,13 +154,11 @@ while True:
             display_warriors_members = []
             for cleaned in team_warriors:
                 display_warriors_members.append(cleaned['name'])
-            print(f'''
-                Team: Warriors Stats
-                --------------------
-                Total players: {total_players}
-
-                Players on Team: {display_warriors_members}
+            print('''Team: Warriors Stats
+                    --------------------
             ''')
+            print(f'Total players: {total_players}')
+            print(f' Players on Team: {display_warriors_members}')
             break
         else:
             print("Invalid response. Please try again.")
