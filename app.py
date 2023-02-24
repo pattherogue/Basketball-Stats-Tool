@@ -124,15 +124,18 @@ while True:
         if choose_team.upper() == 'A':
             #storage for filtered players from prev. balance + clean funtions
             team_panthers = balance_teams(clean_data())[0]
-            #gather total players from filtered (balance + clean functions)
+           #gather total players from filtered (balance + clean functions)
             total_players = len(team_panthers)
             #list number of players on team (seperated by comma)
             display_panthers_members = []
             for cleaned in team_panthers:
                 display_panthers_members.append(cleaned['name'])
-            print(f'''
-                Team: Panthers Stats
-                --------------------
+            print('''Team: Panthers Stats
+                    --------------------
+            ''')
+            print()
+
+                
                 Total players: {total_players}
 
                 Players on Team: {display_panthers_members}
