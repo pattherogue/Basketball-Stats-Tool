@@ -134,7 +134,7 @@ while True:
                     --------------------
             ''')
             print(f'Total players: {total_players}')
-            print(f' Players on Team: {display_panthers_members}')
+            print(f'Players on Team: {display_panthers_members}')
             break
         elif choose_team.upper() == 'B':
             team_bandits = balance_teams(clean_data())[1]
@@ -146,7 +146,7 @@ while True:
                     --------------------
             ''')
             print(f'Total players: {total_players}')
-            print(f' Players on Team: {display_bandits_members}')
+            print(f'Players on Team: {display_bandits_members}')
             break
         elif choose_team.upper() == 'C':
             team_warriors = balance_teams(clean_data())[1]
@@ -158,7 +158,7 @@ while True:
                     --------------------
             ''')
             print(f'Total players: {total_players}')
-            print(f' Players on Team: {display_warriors_members}')
+            print(f'Players on Team: {display_warriors_members}')
             break
         else:
             print("Invalid response. Please try again.")
