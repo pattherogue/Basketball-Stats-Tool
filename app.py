@@ -130,13 +130,13 @@ while True:
             display_panthers_members = []
             for cleaned in team_panthers:
                 display_panthers_members.append(cleaned['name'])
-            print(f"""
+            print(f'''
                 Team: Panthers Stats
                 --------------------
                 Total players: {total_players}
 
                 Players on Team: {display_panthers_members}
-            """)
+            ''')
             break
         elif choose_team.upper() == 'B':
             team_bandits = balance_teams(clean_data())[1]
@@ -144,13 +144,13 @@ while True:
             display_bandits_members = []
             for cleaned in team_bandits:
                 display_bandits_members.append(cleaned['name'])
-            print(f"""
+            print(f'''
                 Team: Bandits Stats
                 --------------------
                 Total players: {total_players}
 
                 Players on Team: {display_bandits_members}
-            """)
+            ''')
             break
         elif choose_team.upper() == 'C':
             team_warriors = balance_teams(clean_data())[1]
@@ -158,13 +158,13 @@ while True:
             display_warriors_members = []
             for cleaned in team_warriors:
                 display_warriors_members.append(cleaned['name'])
-            print(f"""
+            print(f'''
                 Team: Warriors Stats
                 --------------------
                 Total players: {total_players}
 
                 Players on Team: {display_warriors_members}
-            """)
+            ''')
             break
         else:
             print("Invalid response. Please try again.")
