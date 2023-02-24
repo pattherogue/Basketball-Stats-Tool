@@ -132,7 +132,7 @@ while True:
                 display_panthers_members.append(cleaned['name'])
 
             print("""
-                Team: Panther Stats
+                Team: Panthers Stats
                 --------------------
                 Total players: {total_players}
 
@@ -146,7 +146,7 @@ while True:
             for cleaned in team_bandits:
                 display_bandits_members.append(cleaned['name'])
             print("""
-                Team: Bandit Stats
+                Team: Bandits Stats
                 --------------------
                 Total players: {total_players}
 
@@ -160,7 +160,7 @@ while True:
             for cleaned in team_warriors:
                 display_warriors_members.append(cleaned['name'])
             print("""
-                Team: Warrior Stats
+                Team: Warriors Stats
                 --------------------
                 Total players: {total_players}
 
