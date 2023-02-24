@@ -136,7 +136,7 @@ while True:
                 --------------------
                 Total players: {total_players}
 
-                Players on Team: {display_team_members}
+                Players on Team: {display_panthers_members}
             """)
             break
         elif choose_team.upper() == 'B':
