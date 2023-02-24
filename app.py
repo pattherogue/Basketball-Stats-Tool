@@ -150,7 +150,7 @@ while True:
                 --------------------
                 Total players: {total_players}
 
-                Players on Team: {display_team_members}
+                Players on Team: {display_bandits_members}
             """)
             break
         elif choose_team.upper() == 'C':
@@ -164,7 +164,7 @@ while True:
                 --------------------
                 Total players: {total_players}
 
-                Players on Team: {display_team_members}
+                Players on Team: {display_warriors_members}
             """)
             break
         else:
