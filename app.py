@@ -120,7 +120,7 @@ while True:
 
 #Start of Second Display
     while True:
-        choose_team = raw_input('\n\nSelect a team by choosing a letter: ')
+        choose_team = input('\n\nSelect a team by choosing a letter: ')
         if choose_team.upper() == 'A':
             #storage for filtered players from prev. balance + clean funtions
             team_panthers = balance_teams(clean_data())[0]
