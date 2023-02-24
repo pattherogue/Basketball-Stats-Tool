@@ -132,11 +132,11 @@ while True:
                 display_panthers_members.append(cleaned['name'])
 
             print("""
-                #Team: Panther Stats
-                #--------------------
-                #Total players: {total_players}
+                Team: Panther Stats
+                --------------------
+                Total players: {total_players}
 
-                #Players on Team: {display_team_members}
+                Players on Team: {display_team_members}
             """)
             break
         elif choose_team.upper() == 'B':
@@ -146,11 +146,11 @@ while True:
             for cleaned in team_bandits:
                 display_bandits_members.append(cleaned['name'])
             print("""
-                #Team: Bandit Stats
-                #--------------------
-                #Total players: {total_players}
+                Team: Bandit Stats
+                --------------------
+                Total players: {total_players}
 
-                #Players on Team: {display_team_members}
+                Players on Team: {display_team_members}
             """)
             break
         elif choose_team.upper() == 'C':
@@ -160,11 +160,11 @@ while True:
             for cleaned in team_warriors:
                 display_warriors_members.append(cleaned['name'])
             print("""
-                #Team: Bandit Stats
-                #--------------------
-                #Total players: {total_players}
+                Team: Bandit Stats
+                --------------------
+                Total players: {total_players}
 
-                #Players on Team: {display_team_members}
+                Players on Team: {display_team_members}
             """)
             break
         else:
