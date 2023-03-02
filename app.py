@@ -98,7 +98,7 @@ while True:
     print("\n")
     while True: 
         # Enter an option: A
-        option = raw_input("Enter an option A or B: ")
+        option = input("Enter an option A or B: ")
         if option.upper() == 'A':
             print("""
             Please choose a team: 
