@@ -96,6 +96,9 @@ while True:
     # A) Display Team Stats
     # B) Quit 
     print("\n")
+    while True:
+        user_choice = ("Enter an option A or B: ")
+        
     while True: 
         # Enter an option: A
         option = input("Enter an option A or B: ")
