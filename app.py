@@ -112,15 +112,7 @@ while True:
         else:
             print("Invalid response. Please choose 'A' or 'B")
             continue
-
-    while True: 
-        # Enter an option: A
-        
-            continue
-   
 # End of Main Display
-
-
 #Start of Second Display
     while True:
         choose_team = input('\n\nSelect a team by choosing a letter: ')
