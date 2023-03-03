@@ -98,17 +98,25 @@ while True:
     print("\n")
     while True:
         user_choice = ("Enter an option A or B: ")
-        
-    while True: 
-        # Enter an option: A
-        option = input("Enter an option A or B: ")
-        if option.upper() == 'A':
+        if user_choice == 'A':
             print("""
             Please choose a team: 
                 A) Panthers
                 B) Bandits
                 C) Warriors
             """)
+            break
+        elif user_choice == 'B':
+            print('\nEnd of Basketball Stats Tool')
+            break
+        else:
+            print("Invalid response. Please choose 'A' or 'B")
+            continue
+    while True: 
+        # Enter an option: A
+        option = input("Enter an option A or B: ")
+        if option.upper() == 'A':
+           
            
             break
         elif option.upper() == 'B':
