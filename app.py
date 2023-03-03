@@ -98,7 +98,7 @@ while True:
     print("\n")
     while True:
         user_choice = ("Enter an option A or B: ")
-        if user_choice == 'A':
+        if user_choice.upper() == 'A':
             print("""
             Please choose a team: 
                 A) Panthers
