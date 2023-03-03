@@ -106,7 +106,7 @@ while True:
                 C) Warriors
             """)
             break
-        elif user_choice == 'B':
+        elif user_choice.upper() == 'B':
             print('\nEnd of Basketball Stats Tool')
             break
         else:
