@@ -132,9 +132,9 @@ while True:
                 display_panthers_members.append(cleaned['name'])
             print('''Team: Panthers Stats
                     --------------------
+                Total players: {total_players}
+                Players on Team: {display_panthers_members}
             ''')
-            print(f'Total players: {total_players}')
-            print(f'Players on Team: {display_panthers_members}')
             break
         elif choose_team.upper() == 'B':
             team_bandits = balance_teams(clean_data())[1]
@@ -144,9 +144,9 @@ while True:
                 display_bandits_members.append(cleaned['name'])
             print('''Team: Bandits Stats
                     --------------------
+                Total players: {total_players}
+                Players on Team: {display_bandits_members}
             ''')
-            print(f'Total players: {total_players}')
-            print(f'Players on Team: {display_bandits_members}')
             break
         elif choose_team.upper() == 'C':
             team_warriors = balance_teams(clean_data())[1]
@@ -156,9 +156,9 @@ while True:
                 display_warriors_members.append(cleaned['name'])
             print('''Team: Warriors Stats
                     --------------------
+                Total players: {total_players}
+                Players on Team: {display_warriors_members}
             ''')
-            print(f'Total players: {total_players}')
-            print(f'Players on Team: {display_warriors_members}')
             break
         else:
             print("Invalid response. Please try again.")
