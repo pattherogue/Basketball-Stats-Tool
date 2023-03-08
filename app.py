@@ -7,6 +7,8 @@
 from constants import TEAMS, PLAYERS
 import sys
 
+print(sys.version_info)
+
 
 # Create a clean_data function
 def clean_data():
