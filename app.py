@@ -7,7 +7,7 @@
 from constants import TEAMS, PLAYERS
 import sys
 
-print(sys.version_info)
+
 
 
 # Create a clean_data function
@@ -127,7 +127,7 @@ while True:
             display_panthers_members = []
             for cleaned in team_panthers:
                 display_panthers_members.append(cleaned['name'])
-            print('''Team: Panthers Stats
+            print(f'''Team: Panthers Stats
                     --------------------
                 Total players: {total_players}
                 Players on Team: {display_panthers_members}
@@ -139,7 +139,7 @@ while True:
             display_bandits_members = []
             for cleaned in team_bandits:
                 display_bandits_members.append(cleaned['name'])
-            print('''Team: Bandits Stats
+            print(f'''Team: Bandits Stats
                     --------------------
                 Total players: {total_players}
                 Players on Team: {display_bandits_members}
@@ -151,7 +151,7 @@ while True:
             display_warriors_members = []
             for cleaned in team_warriors:
                 display_warriors_members.append(cleaned['name'])
-            print('''Team: Warriors Stats
+            print(f'''Team: Warriors Stats
                     --------------------
                 Total players: {total_players}
                 Players on Team: {display_warriors_members}
