@@ -128,11 +128,11 @@ while True:
             for cleaned in team_panthers:
                 display_panthers_members.append(cleaned['name'])
             print(f'''
-Team: Panthers Stats
---------------------
-Total players: {total_players}
-Players on Team: {display_panthers_members}
-    ''')
+                Team: Panthers Stats
+                --------------------
+                Total players: {total_players}
+                Players on Team: {display_panthers_members}
+            ''')
             break
         elif choose_team.upper() == 'B':
             team_bandits = balance_teams(clean_data())[1]
