@@ -110,7 +110,7 @@ while True:
             break
         elif user_choice.upper() == 'B':
             print('\nEnd of Basketball Stats Tool')
-            break
+            sys.exit()
         else:
             print("Invalid response. Please choose 'A' or 'B")
             continue
