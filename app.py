@@ -140,8 +140,9 @@ while True:
             display_bandits_members = []
             for cleaned in team_bandits:
                 display_bandits_members.append(cleaned['name'])
-            print(f'''Team: Bandits Stats
-                    --------------------
+            print(f'''
+                Team: Bandits Stats
+                --------------------
                 Total players: {total_players}
                 Players on Team: {display_bandits_members}
             ''')
