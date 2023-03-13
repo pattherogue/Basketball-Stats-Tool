@@ -10,7 +10,7 @@ import sys
 
 
 
-# Create a clean_data function
+# Create a clean_data function(ORGANIZE)
 def clean_data():
     # read existing player data from PLAYERS im constants.py
     # clean player data w/o changing original data
