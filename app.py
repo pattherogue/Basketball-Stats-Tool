@@ -148,7 +148,7 @@ while True:
             ''')
             break
         elif choose_team.upper() == 'C':
-            team_warriors = balance_teams(clean_data())[1]
+            team_warriors = balance_teams(clean_data())[2]
             total_players = len(team_warriors)
             display_warriors_members = []
             for cleaned in team_warriors:
