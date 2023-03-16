@@ -35,9 +35,7 @@ def clean_data():
 # Create balance_teams function
 def balance_teams(cleaned):
 # Balance players across three teams: Panthers, Bandits, and  Warriors
-    team_panthers = []
-    team_bandits = []
-    team_warriors = []
+    n = len(cleaned)
 # Organize teams based on experienced vs inexperienced players 
     experienced_player = []
     inexperienced_player = []
