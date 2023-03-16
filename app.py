@@ -36,53 +36,19 @@ def clean_data():
 # Create balance_teams function
 def balance_teams(cleaned):
 # Balance players across three teams: Panthers, Bandits, and  Warriors
-    n = len(cleaned)
-    if n % 3 != 0:
-        return None # cannot be balanced equally
-    team_size = n // 3
-    if team_size == 0:
-        return None # data too small
-    shuffled_data = cleaned.copy()
-    random.shuffle(shuffled_data) #randomize order of data
-
-    team_panthers = shuffled_data[:team_size]
-    team_bandits = shuffled_data[team_size:2*team_size]
-    team_warriors = shuffled_data[2*team_size:]
+num_players_per_team = len(players) // len(TEAMS)
     
-    new_teams = [team_panthers, team_bandits, team_warriors]
-    
-    return new_teams
 # Organize teams based on experienced vs inexperienced players 
-    experienced_player = []
-    inexperienced_player = []
 # New team created to not mess with origials 
     
 # functions, packing, and unpacking
-    for fixed in cleaned:
-        if fixed['experience'] == True:
-            experienced_player.append(fixed)
-        elif fixed['experience'] == False:
-            inexperienced_player.append(fixed)
+  
 
 # HINT: To find out how many players should be on each team, 
 # divide the length of players by the number of teams. 
 # len, min, max
 # loops over players to check experience property value
-    while len(experienced_player) >= 1:
-        for team in new_teams:
-            try:
-            # append to correct list
-                team.append(experienced_player.pop(0))
-            except IndexError:
-                break
-    while len(inexperienced_player) >= 1:
-        for team in new_teams:
-            try: 
-            # append to correct list
-                team.append(inexperienced_player.pop(0))
-            except IndexError:
-                break
-    return new_teams
+    
 # goal   
 
 if __name__ == "__main__":
