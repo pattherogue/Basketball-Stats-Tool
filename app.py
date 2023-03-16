@@ -43,12 +43,19 @@ def balance_teams(cleaned):
     if team_size == 0:
         return None # data too small
     shuffled_data = cleaned.copy()
-    random.shuffle(shuffled_data) #randomise order of data
+    random.shuffle(shuffled_data) #randomize order of data
+
+    team_panthers = shuffled_data[:team_size]
+    team_bandits = shuffled_data[team_size:2*team_size]
+    team_warriors = shuffled_data[2*team_size:]
+    
+    new_teams = [team_panthers, team_bandits, team_warriors]
+    return new_teams
 # Organize teams based on experienced vs inexperienced players 
     experienced_player = []
     inexperienced_player = []
 # New team created to not mess with origials 
-    new_teams = [team_panthers, team_bandits, team_warriors]
+    
 # functions, packing, and unpacking
     for fixed in cleaned:
         if fixed['experience'] == True:
