@@ -6,6 +6,7 @@
 
 from constants import TEAMS, PLAYERS
 import sys
+import random
 
 
 
@@ -42,6 +43,7 @@ def balance_teams(cleaned):
     if team_size == 0:
         return None # data too small
     shuffled_data = cleaned.copy()
+    random.shuffle(shuffled_data) #randomise order of data
 # Organize teams based on experienced vs inexperienced players 
     experienced_player = []
     inexperienced_player = []
