@@ -46,6 +46,8 @@ random.shuffle(experienced_players)
 random.shuffle(inexperienced_players)
 # empty dictionary of teams -- each team name as the key
 teams = {team: [] for team in TEAMS}
+
+ for team in teams:
     
 
 # New team created to not mess with origials 
