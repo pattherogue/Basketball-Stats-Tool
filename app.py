@@ -40,6 +40,8 @@ num_players_per_team = len(cleaned) // len(TEAMS)
 # Organize teams based on experienced vs inexperienced players 
 experienced_players = [player for player in cleaned if player['experience']]
 inexperienced_players = [player for player in cleaned if not player['experience']]
+
+random.shuffle(experienced_players)
     
 
 # New team created to not mess with origials 
