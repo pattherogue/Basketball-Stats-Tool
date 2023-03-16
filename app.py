@@ -50,6 +50,7 @@ def balance_teams(cleaned):
     team_warriors = shuffled_data[2*team_size:]
     
     new_teams = [team_panthers, team_bandits, team_warriors]
+    
     return new_teams
 # Organize teams based on experienced vs inexperienced players 
     experienced_player = []
