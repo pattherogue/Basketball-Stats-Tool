@@ -41,6 +41,7 @@ def balance_teams(cleaned):
     team_size = n // 3
     if team_size == 0:
         return None # data too small
+    shuffled_data = cleaned.copy()
 # Organize teams based on experienced vs inexperienced players 
     experienced_player = []
     inexperienced_player = []
