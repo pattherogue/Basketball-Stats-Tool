@@ -38,6 +38,9 @@ def balance_teams(cleaned):
     n = len(cleaned)
     if n % 3 != 0:
         return None # cannot be balanced equally
+    team_size = n // 3
+    if team_size == 0:
+        return None # data too small
 # Organize teams based on experienced vs inexperienced players 
     experienced_player = []
     inexperienced_player = []
