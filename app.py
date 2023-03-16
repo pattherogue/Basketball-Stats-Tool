@@ -39,6 +39,7 @@ def balance_teams(cleaned):
 num_players_per_team = len(PLAYERS) // len(TEAMS)
 # Organize teams based on experienced vs inexperienced players 
 experienced_players = [player for player in players if player['experience']]
+inexperienced_players = [player for player in players if not player['experience']]
     
 
 # New team created to not mess with origials 
