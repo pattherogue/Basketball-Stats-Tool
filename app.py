@@ -44,6 +44,8 @@ inexperienced_players = [player for player in cleaned if not player['experience'
 # shuffles the two lists randomly 
 random.shuffle(experienced_players)
 random.shuffle(inexperienced_players)
+# empty dictionary of teams -- each team name as the key
+teams = {team: [] for team in TEAMS}
     
 
 # New team created to not mess with origials 
