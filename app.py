@@ -49,6 +49,7 @@ teams = {team: [] for team in TEAMS}
 # loops over the teams
 for team in teams:
     num_experienced_players = 0
+    while len(teams[team]) < num_players_per_team:
 
 # New team created to not mess with origials 
     
