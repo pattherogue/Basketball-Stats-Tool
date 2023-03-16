@@ -42,6 +42,7 @@ experienced_players = [player for player in cleaned if player['experience']]
 inexperienced_players = [player for player in cleaned if not player['experience']]
 
 random.shuffle(experienced_players)
+random.shuffle(inexperienced_players)
     
 
 # New team created to not mess with origials 
