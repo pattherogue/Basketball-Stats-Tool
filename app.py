@@ -54,6 +54,9 @@ for team in teams:
             player = experienced_players.pop()
             # adds players to each team
             num_experienced_players += 1
+        else:
+            player = inexperienced_players.pop()
+
 
 # New team created to not mess with origials 
     
