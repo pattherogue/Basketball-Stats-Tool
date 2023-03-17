@@ -50,6 +50,7 @@ teams = {team: [] for team in TEAMS}
 for team in teams:
     num_experienced_players = 0
     while len(teams[team]) < num_players_per_team:
+        if experienced_players and (num_experienced_players < num_players_per_team // 2):
 
 # New team created to not mess with origials 
     
