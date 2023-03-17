@@ -35,30 +35,30 @@ def clean_data():
 
 # Create balance_teams function
 def balance_teams(cleaned):
-# Balance players across three teams: Panthers, Bandits, and  Warriors
-# calculates number of players per team 
-num_players_per_team = len(cleaned) // len(TEAMS)
-# Organize teams based on experienced vs inexperienced players 
-experienced_players = [player for player in cleaned if player['experience']]
-inexperienced_players = [player for player in cleaned if not player['experience']]
-# shuffles the two lists randomly 
-random.shuffle(experienced_players)
-random.shuffle(inexperienced_players)
-# empty dictionary of teams -- each team name as the key
-teams = {team: [] for team in TEAMS}
-# loops over the teams
-for team in teams:
-    num_experienced_players = 0
-    # adds players to each team
-    # until the team has reached the desired number of players
-    while len(teams[team]) < num_players_per_team:
-        if experienced_players and (num_experienced_players < num_players_per_team // 2):
-            player = experienced_players.pop()
-            num_experienced_players += 1
-        else:
-            player = inexperienced_players.pop()
-        teams[team].append(player)
-    # return dictionary of teams w/ assinged players
+    # Balance players across three teams: Panthers, Bandits, and  Warriors
+    # calculates number of players per team 
+    num_players_per_team = len(cleaned) // len(TEAMS)
+    # Organize teams based on experienced vs inexperienced players 
+    experienced_players = [player for player in cleaned if player['experience']]
+    inexperienced_players = [player for player in cleaned if not player['experience']]
+    # shuffles the two lists randomly 
+    random.shuffle(experienced_players)
+    random.shuffle(inexperienced_players)
+    # empty dictionary of teams -- each team name as the key
+    teams = {team: [] for team in TEAMS}
+    # loops over the teams
+    for team in teams:
+        num_experienced_players = 0
+        # adds players to each team
+        # until the team has reached the desired number of players
+        while len(teams[team]) < num_players_per_team:
+            if experienced_players and (num_experienced_players < num_players_per_team // 2):
+                player = experienced_players.pop()
+                num_experienced_players += 1
+            else:
+                player = inexperienced_players.pop()
+            teams[team].append(player)
+        # return dictionary of teams w/ assinged players
     return teams
 
 
