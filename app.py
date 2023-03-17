@@ -49,10 +49,11 @@ teams = {team: [] for team in TEAMS}
 # loops over the teams
 for team in teams:
     num_experienced_players = 0
+    # adds players to each team
+    # until the team has reached the desired number of players
     while len(teams[team]) < num_players_per_team:
         if experienced_players and (num_experienced_players < num_players_per_team // 2):
             player = experienced_players.pop()
-            # adds players to each team
             num_experienced_players += 1
         else:
             player = inexperienced_players.pop()
