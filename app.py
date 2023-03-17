@@ -58,6 +58,7 @@ for team in teams:
         else:
             player = inexperienced_players.pop()
         teams[team].append(player)
+    # return dictionary of teams w/ assinged players
     return teams
 
 
