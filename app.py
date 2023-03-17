@@ -52,6 +52,7 @@ for team in teams:
     while len(teams[team]) < num_players_per_team:
         if experienced_players and (num_experienced_players < num_players_per_team // 2):
             player = experienced_players.pop()
+            # adds players to each team
 
 # New team created to not mess with origials 
     
