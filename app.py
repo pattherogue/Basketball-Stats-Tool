@@ -115,6 +115,14 @@ if option == "A":
         print("Players on Team:")
         print()
         input("\nPress ENTER to continue...")
+
+    elif team_option == "B":
+        print("\nTeam: Bandits Stats")
+        print("--------------------")
+        print("Total players: 6\n")
+        print("Players on Team:")
+        print()
+        input("\nPress ENTER to continue...")
     
 
         if user_choice.upper() == 'A':
