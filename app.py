@@ -103,6 +103,9 @@ print("  A) Display Team Stats")
 print("  B) Quit")
 
 option = input("\nEnter an option: ")
+
+if option == "A":
+    print("\nA) Panthers\nB) Bandits\nC) Warriors")
     
 
         if user_choice.upper() == 'A':
