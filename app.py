@@ -96,9 +96,12 @@ print("BASKETBALL TEAM STATS TOOL\n")
 # ---- MENU ----
     print("---- MENU----\n")
     # Here are your choices: 
-    print("Here are your choices: \nA) Display Team Stats \nB) Quit" )
     # A) Display Team Stats
-    # B) Quit 
+    # B) Quit
+    print(" Here are your choices:")
+    print("  A) Display Team Stats")
+    print("  B) Quit")
+  
     print("\n")
     while True:
         user_choice = input("Enter an option A or B: ")
