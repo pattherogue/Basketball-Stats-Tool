@@ -119,7 +119,7 @@ if option == "A":
     elif team_option == "B":
         print("\nTeam: Bandits Stats")
         print("--------------------")
-        print("Total players: 6\n")
+        print("Total players: \n")
         print("Players on Team:")
         print()
         input("\nPress ENTER to continue...")
