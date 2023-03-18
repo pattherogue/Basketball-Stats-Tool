@@ -106,6 +106,7 @@ option = input("\nEnter an option: ")
 
 if option == "A":
     print("\nA) Panthers\nB) Bandits\nC) Warriors")
+    team_option = input("\nEnter an option: ")
     
 
         if user_choice.upper() == 'A':
