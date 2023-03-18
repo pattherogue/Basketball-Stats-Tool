@@ -94,17 +94,17 @@ if __name__ == "__main__":
 # Title BASKETBALL TEAM STATS TOOL
 print("BASKETBALL TEAM STATS TOOL\n")
 # ---- MENU ----
-    print("---- MENU----\n")
-    # Here are your choices: 
-    # A) Display Team Stats
-    # B) Quit
-    print(" Here are your choices:")
-    print("  A) Display Team Stats")
-    print("  B) Quit")
-  
-    print("\n")
-    while True:
-        user_choice = input("Enter an option A or B: ")
+print("---- MENU----\n")
+# Here are your choices: 
+# A) Display Team Stats
+# B) Quit
+print(" Here are your choices:")
+print("  A) Display Team Stats")
+print("  B) Quit")
+
+option = input("\nEnter an option: ")
+    
+
         if user_choice.upper() == 'A':
             print("""
             Please choose a team: 
