@@ -37,6 +37,8 @@ def clean_data():
 def balance_teams(cleaned):
     # Balance players across three teams: Panthers, Bandits, and  Warriors
     # calculates number of players per team 
+    # HINT: To find out how many players should be on each team, 
+    # divide the length of players by the number of teams. 
     num_players_per_team = len(cleaned) // len(TEAMS)
     # Organize teams based on experienced vs inexperienced players 
     experienced_players = [player for player in cleaned if player['experience']]
@@ -67,8 +69,7 @@ def balance_teams(cleaned):
 # functions, packing, and unpacking
   
 
-# HINT: To find out how many players should be on each team, 
-# divide the length of players by the number of teams. 
+
 # len, min, max
 # loops over players to check experience property value
     
