@@ -107,6 +107,14 @@ option = input("\nEnter an option: ")
 if option == "A":
     print("\nA) Panthers\nB) Bandits\nC) Warriors")
     team_option = input("\nEnter an option: ")
+
+    if team_option == "A":
+        print("\nTeam: Panthers Stats")
+        print("--------------------")
+        print("Total players: \n")
+        print("Players on Team:")
+        print()
+        input("\nPress ENTER to continue...")
     
 
         if user_choice.upper() == 'A':
