@@ -92,6 +92,8 @@ if option == "A":
                 team_name = "Bandits"
             elif team_option == "C":
                 team_name = "Warriors"
+            player_list = teams[team_name]
+            player_names = ", ".join([player['name'] for player in player_list])
     else:
         print("Invalid option. Please try again.")
         sys.exit()
