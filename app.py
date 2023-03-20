@@ -87,9 +87,17 @@ if option == "A":
     team_option = input("\nEnter an option: ")
     if team_option in ["A", "B", "C"]:
         if team_option == "A":
-                team_name = "Panthers"
+            team_name = "Panthers"
+            # Call the balance_teams function and assign its returned value to the "teams" variable
+            teams = balance_teams(cleaned)
+            # Access the "Panthers" team from the "teams" variable and assign its player list to the "player_list" variable
+            player_list = teams[team_name]
+
         elif team_option == "B":
             team_name = "Bandits"
+            teams = balance_teams(cleaned)
+            player_list = teams[team_name]
+
         elif team_option == "C":
             team_name = "Warriors"
         player_list = teams[team_name]
