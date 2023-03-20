@@ -110,14 +110,17 @@ if option == "A":
 
     if team_option == "A":
         team_name = "Panthers"
+        #storage for filtered players from prev. balance + clean funtions
         player_list = balance_teams(clean_data())[0]
 
     elif team_option == "B":
         team_name = "Bandits"
+        #storage for filtered players from prev. balance + clean funtions
         player_list = balance_teams(clean_data())[1]
 
     elif team_option == "C":
         team_name = "Warriors"
+        #storage for filtered players from prev. balance + clean funtions
         player_list = balance_teams(clean_data())[2]
     
      else:
