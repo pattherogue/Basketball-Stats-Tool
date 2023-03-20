@@ -112,8 +112,9 @@ if option == "A":
         print(f"Total players: {len(player_list)}\n")
         print("Players on Team:")
         # Use a loop to print each player's name on a new line
-        for player in player_list:
-            print(f"  {player['name']}")
+        player_names = [player['name'] for player in player_list]
+        player_names_str = ", ".join(player_names)
+        print(f"  {player_names_str}")
     
     input("\nPress ENTER to continue...")
 
