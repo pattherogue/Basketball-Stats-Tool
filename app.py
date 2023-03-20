@@ -21,12 +21,12 @@ def clean_data():
         #height -- saved as an integer
         fixed['height'] = int(player['height'].split(" ")[0])
         #experience -- saved as a boolean value (True or False)
-        if player['experience'] == 'YES':
+        if player['experience'] == 'Yes':
             fixed['experience'] = True
         else: 
             fixed['experience'] = False
     
-    cleaned.append(fixed)
+        cleaned.append(fixed)
     #data returned cleaned
     return cleaned
 
@@ -114,7 +114,7 @@ if option == "A":
         # Use a loop to print each player's name on a new line
         for player in player_list:
             print(f"  {player['name']}")
-            \
+    
     input("\nPress ENTER to continue...")
 
 elif option == "B":
