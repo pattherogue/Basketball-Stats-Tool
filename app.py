@@ -110,19 +110,19 @@ if option == "A":
 
     if team_option == "A":
         team_name = "Panthers"
-        player_list = 
+        player_list = balance_teams(clean_data())[0]
 
     elif team_option == "B":
         team_name = "Bandits"
-        player_list = 
+        player_list = balance_teams(clean_data())[1]
 
-    elif team_option == "":
+    elif team_option == "C":
         team_name = "Warriors"
-        player_list = 
+        player_list = balance_teams(clean_data())[2]
     
      else:
         print("Invalid option. Please try again.")
-        exit()
+        sys.exit()
 
     print(f"\nTeam: {team_name} Stats")
     print("--------------------")
