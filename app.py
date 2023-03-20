@@ -141,53 +141,6 @@ else:
     print("Invalid option. Please try again.")
 # End of Main Display
 #Start of Second Display
-    while True:
-        choose_team = input('\n\nSelect a team by choosing a letter: ')
-        if choose_team.upper() == 'A':
-            #storage for filtered players from prev. balance + clean funtions
-            team_panthers = balance_teams(clean_data())[0]
-            #gather total players from filtered (balance + clean functions)
-            total_players = len(team_panthers)
-            #list number of players on team (seperated by comma)
-            display_panthers_members = []
-            for cleaned in team_panthers:
-                display_panthers_members.append(cleaned['name'])
-            print(f'''
-                Team: Panthers Stats
-                --------------------
-                Total players: {total_players}
-                Players on Team: {display_panthers_members}
-            ''')
-            break
-        elif choose_team.upper() == 'B':
-            team_bandits = balance_teams(clean_data())[1]
-            total_players = len(team_bandits)
-            display_bandits_members = []
-            for cleaned in team_bandits:
-                display_bandits_members.append(cleaned['name'])
-            print(f'''
-                Team: Bandits Stats
-                --------------------
-                Total players: {total_players}
-                Players on Team: {display_bandits_members}
-            ''')
-            break
-        elif choose_team.upper() == 'C':
-            team_warriors = balance_teams(clean_data())[2]
-            total_players = len(team_warriors)
-            display_warriors_members = []
-            for cleaned in team_warriors:
-                display_warriors_members.append(cleaned['name'])
-            print(f'''
-                Team: Warriors Stats
-                --------------------
-                Total players: {total_players}
-                Players on Team: {display_warriors_members}
-            ''')
-            break
-        else:
-            print("Invalid response. Please try again.")
-            continue
 
 # Team Panthers
 # Team Bandits
