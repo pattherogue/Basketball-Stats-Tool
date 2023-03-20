@@ -63,18 +63,11 @@ def balance_teams(cleaned):
 if __name__ == "__main__":
     clean_data()
     balance_teams(clean_data())
-#Console readability matters
-#Display in nice readable format
 
 #Displaying the stats
     #team's name as a string
     #total players on that team as an integer
     #player names as strings seperated by commas
-
-
-# FORMAT OF BASKETBALL STATS TOOL
-
-# Beginning Of Main Display 
 
 # Title BASKETBALL TEAM STATS TOOL
 print("BASKETBALL TEAM STATS TOOL\n")
