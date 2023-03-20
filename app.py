@@ -86,25 +86,26 @@ if option == "A":
     print("\nA) Panthers\nB) Bandits\nC) Warriors")
     team_option = input("\nEnter an option: ")
     if team_option in ["A", "B", "C"]:
-            if team_option == "A":
+        if team_option == "A":
                 team_name = "Panthers"
-            elif team_option == "B":
-                team_name = "Bandits"
-            elif team_option == "C":
-                team_name = "Warriors"
-            player_list = teams[team_name]
-            player_names = ", ".join([player['name'] for player in player_list])
+        elif team_option == "B":
+            team_name = "Bandits"
+        elif team_option == "C":
+            team_name = "Warriors"
+        player_list = teams[team_name]
+        player_names = ", ".join([player['name'] for player in player_list])
+        
+        print(f"\nTeam: {team_name} Stats")
+        print("--------------------")
+        print(f"Total players: {len(player_list)}\n")
+        print("Players on Team:")
+        print(f"  {player_names}")
+        input("\nPress ENTER to continue...")
+    
     else:
         print("Invalid option. Please try again.")
         sys.exit()
 
-    print(f"\nTeam: {team_name} Stats")
-    print("--------------------")
-    print(f"Total players: {len(player_list.split(', '))}\n")
-    print("Players on Team:")
-    print(f"  {player_list}")
-    input("\nPress ENTER to continue...")
-    
 elif option == "B":
     print("Goodbye!")
     
