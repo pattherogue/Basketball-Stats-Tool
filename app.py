@@ -109,28 +109,16 @@ if option == "A":
     team_option = input("\nEnter an option: ")
 
     if team_option == "A":
-        print("\nTeam: Panthers Stats")
-        print("--------------------")
-        print("Total players: \n")
-        print("Players on Team:")
-        print()
-        input("\nPress ENTER to continue...")
+        team_name = "Panthers"
+        player_list = 
 
     elif team_option == "B":
-        print("\nTeam: Bandits Stats")
-        print("--------------------")
-        print("Total players: \n")
-        print("Players on Team:")
-        print()
-        input("\nPress ENTER to continue...")
+        team_name = "Bandits"
+        player_list = 
 
     elif team_option == "":
-        print("\nTeam: Warriors Stats")
-        print("--------------------")
-        print("Total players: \n")
-        print("Players on Team:")
-        print()
-        input("\nPress ENTER to continue...")
+        team_name = "Warriors"
+        player_list = 
     
 
         if user_choice.upper() == 'A':
