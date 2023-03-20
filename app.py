@@ -8,9 +8,6 @@ from constants import TEAMS, PLAYERS
 import sys
 import random
 
-
-
-
 # Create a clean_data function(ORGANIZE)
 def clean_data():
     # read existing player data from PLAYERS im constants.py
@@ -62,18 +59,6 @@ def balance_teams(cleaned):
             teams[team].append(player)
         # return dictionary of teams w/ assinged players
     return teams
-
-
-# New team created to not mess with origials 
-    
-# functions, packing, and unpacking
-  
-
-
-# len, min, max
-# loops over players to check experience property value
-    
-# goal   
 
 if __name__ == "__main__":
     clean_data()
