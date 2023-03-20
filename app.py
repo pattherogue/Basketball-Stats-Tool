@@ -61,8 +61,8 @@ def balance_teams(cleaned):
     return teams
 
 if __name__ == "__main__":
-    clean_data()
-    balance_teams(clean_data())
+    cleaned = clean_data()
+    teams = balance_teams(cleaned)
 
 #Displaying the stats
     #team's name as a string
