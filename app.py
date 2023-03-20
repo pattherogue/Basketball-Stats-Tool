@@ -123,14 +123,19 @@ if option == "A":
      else:
         print("Invalid option. Please try again.")
         exit()
-    
 
-        elif user_choice.upper() == 'B':
-            print('\nEnd of Basketball Stats Tool')
-            sys.exit()
-        else:
-            print("Invalid response. Please choose 'A' or 'B")
-            continue
+    print(f"\nTeam: {team_name} Stats")
+    print("--------------------")
+    print(f"Total players: {len(player_list.split(', '))}\n")
+    print("Players on Team:")
+    print(f"  {player_list}")
+    input("\nPress ENTER to continue...")
+    
+elif option == "B":
+    print("Goodbye!")
+    
+else:
+    print("Invalid option. Please try again.")
 # End of Main Display
 #Start of Second Display
     while True:
