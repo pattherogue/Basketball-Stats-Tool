@@ -123,7 +123,7 @@ if option == "A":
         #storage for filtered players from prev. balance + clean funtions
         player_list = balance_teams(clean_data())[2]
     
-     else:
+    else:
         print("Invalid option. Please try again.")
         sys.exit()
 
