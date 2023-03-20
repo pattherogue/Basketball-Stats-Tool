@@ -100,19 +100,22 @@ if option == "A":
 
         elif team_option == "C":
             team_name = "Warriors"
-        player_list = teams[team_name]
-        player_names = ", ".join([player['name'] for player in player_list])
+            teams = balance_teams(cleaned)
+            player_list = teams[team_name]
+
+        else:
+            print("Invalid option. Please try again.")
+            sys.exit()
         
         print(f"\nTeam: {team_name} Stats")
         print("--------------------")
         print(f"Total players: {len(player_list)}\n")
         print("Players on Team:")
-        print(f"  {player_names}")
-        input("\nPress ENTER to continue...")
-    
-    else:
-        print("Invalid option. Please try again.")
-        sys.exit()
+        # Use a loop to print each player's name on a new line
+        for player in player_list:
+            print(f"  {player['name']}")
+            \
+    input("\nPress ENTER to continue...")
 
 elif option == "B":
     print("Goodbye!")
