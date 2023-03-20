@@ -120,15 +120,11 @@ if option == "A":
         team_name = "Warriors"
         player_list = 
     
+     else:
+        print("Invalid option. Please try again.")
+        exit()
+    
 
-        if user_choice.upper() == 'A':
-            print("""
-            Please choose a team: 
-                A) Panthers
-                B) Bandits
-                C) Warriors
-            """)
-            break
         elif user_choice.upper() == 'B':
             print('\nEnd of Basketball Stats Tool')
             sys.exit()
