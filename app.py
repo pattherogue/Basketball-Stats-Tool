@@ -39,8 +39,8 @@ def balance_teams(players):
     num_teams = len(TEAMS)
     num_players_per_team = len(players) // num_teams
     # Organize teams based on experienced vs inexperienced players 
-    experienced_players = [player for player in cleaned if player['experience']]
-    inexperienced_players = [player for player in cleaned if not player['experience']]
+    experienced_players = [player for player in players if player['experience']]
+    inexperienced_players = [player for player in players if not player['experience']]
     # shuffles the two lists randomly 
     random.shuffle(experienced_players)
     random.shuffle(inexperienced_players)
