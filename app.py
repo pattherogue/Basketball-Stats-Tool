@@ -93,23 +93,14 @@ if __name__ == "__main__":
                 print("--------------------")
                 print(f"Total players: {len(player_list)}\n")
                 print("Players on Team:")
-                else:
-                    print("Invalid option. Please try again.")
-                    sys.exit()
-                
-                print(f"\nTeam: {team_name} Stats")
-                print("--------------------")
-                print(f"Total players: {len(player_list)}\n")
-                print("Players on Team:")
-                # Use a loop to print each player's name on a new line
                 player_names = [player['name'] for player in player_list]
                 player_names_str = ", ".join(player_names)
                 print(f"  {player_names_str}")
-            
-            input("\nPress ENTER to continue...")
-
-    elif option == "B":
-        print("Goodbye!")
-        
-    else:
-        print("Invalid option. Please try again.")
+                input("\nPress ENTER to continue...")
+            else:
+                print("Invalid option. Please try again.")         
+        elif option == 'b':
+            print("Goodbye!")
+            sys.exit()
+        else:
+            print("Invalid option. Please try again.")
