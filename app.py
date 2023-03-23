@@ -9,7 +9,7 @@ import sys
 import random
 
 # Create a clean_data function(ORGANIZE)
-def clean_data():
+def clean_data(players):
     # read existing player data from PLAYERS im constants.py
     # clean player data w/o changing original data
     cleaned = []
@@ -31,12 +31,13 @@ def clean_data():
     return cleaned
 
 # Create balance_teams function
-def balance_teams(cleaned):
+def balance_teams(players):
     # Balance players across three teams: Panthers, Bandits, and  Warriors
     # calculates number of players per team 
     # HINT: To find out how many players should be on each team, 
     # divide the length of players by the number of teams. 
-    num_players_per_team = len(cleaned) // len(TEAMS)
+    num_teams = len(TEAMS)
+    num_players_per_team = len(players) // num_teams
     # Organize teams based on experienced vs inexperienced players 
     experienced_players = [player for player in cleaned if player['experience']]
     inexperienced_players = [player for player in cleaned if not player['experience']]
