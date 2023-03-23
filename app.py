@@ -62,8 +62,8 @@ def balance_teams(players):
     return teams
 
 if __name__ == "__main__":
-    cleaned = clean_data()
-    teams = balance_teams(cleaned)
+    players = clean_data(PLAYERS)
+    teams = balance_teams(players)
 
     #Displaying the stats
     #team's name as a string
@@ -81,43 +81,32 @@ if __name__ == "__main__":
     print("  A) Display Team Stats")
     print("  B) Quit")
 
-    option = input("\nEnter an option: ")
-
-    if option == "A":
-        print("\nA) Panthers\nB) Bandits\nC) Warriors")
-        team_option = input("\nEnter an option: ")
-        if team_option in ["A", "B", "C"]:
-            if team_option == "A":
-                team_name = "Panthers"
-                # Call the balance_teams function and assign its returned value to the "teams" variable
-                teams = balance_teams(cleaned)
-                # Access the "Panthers" team from the "teams" variable and assign its player list to the "player_list" variable
+    while True:
+        option = input("\nEnter an option: ").strip().lower()
+        if option == 'a':
+            print("\nA) Panthers\nB) Bandits\nC) Warriors")
+            team_option = input("Enter an option: ").strip().lower()
+            if team_option in ["a", "b", "c"]:
+                team_name = {'a': 'Panthers', 'b': 'Bandits', 'c': 'Warriors'}[team_option]
                 player_list = teams[team_name]
-
-            elif team_option == "B":
-                team_name = "Bandits"
-                teams = balance_teams(cleaned)
-                player_list = teams[team_name]
-
-            elif team_option == "C":
-                team_name = "Warriors"
-                teams = balance_teams(cleaned)
-                player_list = teams[team_name]
-
-            else:
-                print("Invalid option. Please try again.")
-                sys.exit()
+                print(f"\nTeam: {team_name} Stats")
+                print("--------------------")
+                print(f"Total players: {len(player_list)}\n")
+                print("Players on Team:")
+                else:
+                    print("Invalid option. Please try again.")
+                    sys.exit()
+                
+                print(f"\nTeam: {team_name} Stats")
+                print("--------------------")
+                print(f"Total players: {len(player_list)}\n")
+                print("Players on Team:")
+                # Use a loop to print each player's name on a new line
+                player_names = [player['name'] for player in player_list]
+                player_names_str = ", ".join(player_names)
+                print(f"  {player_names_str}")
             
-            print(f"\nTeam: {team_name} Stats")
-            print("--------------------")
-            print(f"Total players: {len(player_list)}\n")
-            print("Players on Team:")
-            # Use a loop to print each player's name on a new line
-            player_names = [player['name'] for player in player_list]
-            player_names_str = ", ".join(player_names)
-            print(f"  {player_names_str}")
-        
-        input("\nPress ENTER to continue...")
+            input("\nPress ENTER to continue...")
 
     elif option == "B":
         print("Goodbye!")
