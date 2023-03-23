@@ -64,7 +64,7 @@ if __name__ == "__main__":
     cleaned = clean_data()
     teams = balance_teams(cleaned)
 
-#Displaying the stats
+    #Displaying the stats
     #team's name as a string
     #total players on that team as an integer
     #player names as strings seperated by commas
