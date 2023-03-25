@@ -84,7 +84,11 @@ if __name__ == "__main__":
     while True:
         option = input("\nEnter an option: ").strip().lower()
         if option == 'a':
-            print("\nA) Panthers\nB) Bandits\nC) Warriors")
+            # Prompt the user to choose a team to view stats
+            print("\nPlease choose a team:\n")
+            for index, team in enumerate(TEAMS, start=1):
+                print(f"{index}) {team}")
+            # Get user's input
             team_option = input("Enter an option: ").strip().lower()
             if team_option in ["a", "b", "c"]:
                 team_name = {'a': 'Panthers', 'b': 'Bandits', 'c': 'Warriors'}[team_option]
