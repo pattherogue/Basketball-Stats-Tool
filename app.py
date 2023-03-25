@@ -90,19 +90,25 @@ if __name__ == "__main__":
                 print(f"{index}) {team}")
             # Get user's input
             team_option = input("Enter an option: ").strip().lower()
-            if team_option in ["a", "b", "c"]:
-                team_name = {'a': 'Panthers', 'b': 'Bandits', 'c': 'Warriors'}[team_option]
-                player_list = teams[team_name]
-                print(f"\nTeam: {team_name} Stats")
-                print("--------------------")
-                print(f"Total players: {len(player_list)}\n")
-                print("Players on Team:")
-                player_names = [player['name'] for player in player_list]
-                player_names_str = ", ".join(player_names)
-                print(f"  {player_names_str}")
-                input("\nPress ENTER to continue...")
-            else:
-                print("Invalid option. Please try again.")         
+            try:
+                team_index = int(team_option) - 1
+                if 0 <= team_index < len(TEAMS):
+                    team_name = TEAMS[team_index]
+                    player_list = teams[team_name]
+
+                    print(f"\nTeam: {team_name} Stats")
+                    print("--------------------")
+                    print(f"Total players: {len(player_list)}\n")
+                    print("Players on Team:")
+                    player_names = [player['name'] for player in player_list]
+                    player_names_str = ", ".join(player_names)
+                    print(f"  {player_names_str}")
+                    input("\nPress ENTER to continue...")
+                    
+                else:
+                    print("Invalid option. Please try again.")
+            except ValueError:
+                print("Invalid option. Please try again.")          
         elif option == 'b':
             print("Goodbye!")
             sys.exit()
