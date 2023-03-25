@@ -89,8 +89,9 @@ if __name__ == "__main__":
             for index, team in enumerate(TEAMS, start=1):
                 print(f"{index}) {team}")
             # Get user's input
-            team_option = input("Enter an option: ").strip().lower()
+            team_option = input("Enter Aan option: ").strip().lower()
             try:
+                #convert user's input to an integer and subtract 1 to get index of team
                 team_index = int(team_option) - 1
                 if 0 <= team_index < len(TEAMS):
                     team_name = TEAMS[team_index]
@@ -104,7 +105,7 @@ if __name__ == "__main__":
                     player_names_str = ", ".join(player_names)
                     print(f"  {player_names_str}")
                     input("\nPress ENTER to continue...")
-                    
+
                 else:
                     print("Invalid option. Please try again.")
             except ValueError:
@@ -114,3 +115,4 @@ if __name__ == "__main__":
             sys.exit()
         else:
             print("Invalid option. Please try again.")
+
